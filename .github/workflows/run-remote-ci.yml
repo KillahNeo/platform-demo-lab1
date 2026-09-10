@@ -1,0 +1,8 @@
+name: Run Remote CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    uses: GitFabien/platform-demo-lab1/.github/workflows/KillahNeo/workflow.yml@main
